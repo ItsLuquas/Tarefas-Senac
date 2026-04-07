@@ -1,0 +1,35 @@
+main {
+    background-color: white;
+    max-width: 300px;
+    box-shadow: 0px 0px 10px;
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 6%;
+}
+
+body {
+    background-color: rgb(214, 214, 214);
+    height: 100vh;
+    margin-top: 20vh;
+    font-family: sans-serif;
+}
+
+.entrar {
+    background-color: #e4e4e4;
+    color: rgb(0, 0, 0);
+    border: 1px solid #000000;
+    padding: 10px;
+    width: 100%;
+    
+}
+
+.input {
+    width: 98%;
+    padding-top: 6%;
+}
+
+.label {
+    color: #6e6e6e;
+    font-size: 20px;
+}

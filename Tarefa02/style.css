@@ -1,0 +1,36 @@
+    nav {
+        background-color: #b0fb7e;
+    }
+
+    fieldset {
+        background-color: #f1ff9f;
+    }
+
+    footer {
+        background-color: #b0fb7e;
+        font-size: 20px;
+    }
+
+
+
+
+    .index {
+        color: #0800ff;
+        background-color: #b0e6ff;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .galeria {
+        color: #0800ff;
+        background-color: #b0e6ff;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .cadastro {
+        color: #0800ff;
+        background-color: #b0e6ff;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }

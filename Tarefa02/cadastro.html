@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro ZIKA</title>
+</head>
+
+<body>
+
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Solaris Saúde</title>
+    </head>
+
+    <body>
+
+        <header><img src="images\Clinica Solaris.png" width="400px"></header>
+        <hr>
+        <nav>
+            <br>
+            <a href="index.html" class="index">Inicio</a> <br> <br>
+            <a href="galeria.html" class="galeria">Galeria</a> <br> <br>
+            <a href="cadastro.html" class="cadastro">Cadastro</a> <br> <br>
+
+        </nav>
+        <hr>
+
+        <main>
+            <h2>Tela de Cadastro</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Cadastro Solaris</legend>
+                    <p> <input type="hidden" name="formulario" value="cadastro"> </p>
+                    <p> <label>Nome:</label> </p>
+                    <p> <input placeholder="Seu Nome" type="text" minlength="2" maxlength="50"> </p>
+
+                    <p> <label>CPF:</label> </p>
+                    <p> <input placeholder="Seu CPF" type="text" pattern="\d{3}.\d{3}.\d{3}-\d{2}" minlength="14"
+                            maxlength="14">
+
+                    <p> <label>Endereço:</label></p>
+                    <p> <input placeholder="Seu Endereço" type="text"> </p>
+                    <p> <label for="logadouro">Logadouro:</label>
+                        <input type="radio" name="logradouro" value="casa">Casa
+                        <input type="radio" name="logradouro" value="apartamento">Apartamento
+                    </p>
+
+                    <p> <label>Senha:</label><br></p>
+                    <p> <input placeholder="Sua Senha" type="password"></p>
+
+                    <p> <label>Email:</label></p>
+                    <p> <input type="email" placeholder="Seu Email"></p>
+
+                    <p> <label>Data de Nascimento:</label> </p>
+                    <p> <input type="date"> </p>
+
+
+                    <p> <label>Número:</label> </p>
+                    <p> <input placeholder="Seu Número" type="tel"> </p>
+
+                    <p> <label>Telefone</label> </p>
+                    <p> <input placeholder="Seu Telefone" type="text"> </p>
+
+                    <p> <label>Sexo:</label>
+
+                        <input type="radio" name="sexo" value="masculino">Masculino
+                        <input type="radio" name="sexo" value="feminino">Feminino
+                        <input type="radio" name="sexo" value="outro">Outro
+                    </p> <br>
+
+                    <p> <label>Interesses:</label> </p>
+                    <p> <input type="checkbox" name="interesses" value="quimioterapia"> Quimioterapia
+                        <input type="checkbox" name="interesses" value="fisioterapia"> Fisioterapia
+                        <input type="checkbox" name="interesses" value="pediatra"> Pediatra
+                    </p>
+
+                    <p> <label>Observações:</label>
+                    <p> <textarea placeholder="Suas Observações"></textarea></p>
+
+                    <p> <label for="arquivo">Enviar Arquivo:</label>
+                        <input type="file" name="arquivo" id="arquivo">
+                    </p>
+
+                    <p> <button type="submit" value="Enviar"> Enviar</button> </p>
+                </fieldset>
+            </form>
+        </main>
+        <hr>
+
+        <footer>
+            <address>email: info@solarissaude.com.br</address>
+            <address>Telefone: (34) 99999-9999</address>
+            <address>Endereço: Rua da Saúde, 999 Uberlândia, MG</address>
+        </footer>
+    </body>
+
+</html>
