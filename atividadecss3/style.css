@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ebeff1;
+    margin: 0;
+    padding: 0px;
+}
+
+header {
+    background-color: #132238;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #233146;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.quadradao {
+    background-color: white;
+    width: 90%;
+    border-radius: 14px;
+    justify-self: center;
+    padding: 2px;
+    box-shadow: 0px 0px 10px #818181;
+    text-align: center;
+}
+
+.titulo-quad {
+    background-color: #e5e9f5;
+    width: 90%;
+    margin: 20px;
+    justify-self: center;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.card {
+    width: 250px;
+    background-color: #e4edf1;
+    border: 3px solid #acc2dc;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 15px;
+}
+
+div h2 {
+    text-align: center;
+}
+
+.introd {
+    text-align: center;
+}
+
+.subcard1 {
+    background-color: #2468ce;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 12px;
+    color: white;
+}
+.card h3 {
+    text-align: center;
+}
+
+footer {
+    background-color: #0b182c;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
