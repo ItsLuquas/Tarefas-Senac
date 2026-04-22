@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(233, 238, 241);
+}
+
+header {
+    color: white;
+    margin: 10px;
+    margin-left: 40px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+nav a:hover{
+    color: rgb(176, 186, 197);
+    font-size: 18px;
+}
+
+
+.topo {
+    display: flex;
+    background-color: rgb(8, 21, 37);
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+}
+
+.quadradao {
+    background: linear-gradient(90deg, #061440, #062873, #3877FF );
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.refs {
+    color: white;
+    padding: 15px;
+    padding-right: 40%;
+    padding-left: 30px;
+    padding-bottom: 10%;
+    padding-top: 5%;
+    letter-spacing: 2px;
+    margin-left: 50px;
+}
+
+.refs h1 {
+    font-size: 50px;
+}
+
+.refs p {
+    font-size: 25px;
+}
+
+.service {
+    color: black;
+    background-color: orange;
+    padding: 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 25px;
+}
+
+.service:hover {
+    color: white;
+    padding: 15px;
+    background-color: orange;
+    border-radius: 8px;
+}
+
+.equipe {
+    color: white;
+    border: solid 1px;
+    padding: 11px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.equipe:hover {
+    color: rgb(176, 186, 197);
+    padding: 16px;
+
+}
+
+
+.direita {
+    background-color: white;
+    padding: 1%;
+    border-radius: 20px;
+    margin-right: 50px;
+    height: 40%;
+    margin-top: 80px;
+    width: 80%;
+}
+
+.direita1 {
+    padding: 5px;
+}
+
+.direita2 {
+    background-color: rgb(225, 235, 243);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.direita3 {
+    background-color: rgb(225, 235, 243);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+main {
+    text-align: center;
+}
+
+main h2 {
+    font-size: 40px;
+    color:rgb(44, 44, 44);
+}
+
+main p {
+    font-size: 20px;
+    color: gray;
+}
+
+.tricard {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    padding: 1%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card a {
+    text-decoration: none;
+    color: #0049e7;
+    font-size: 20px;
+}
+
+.card a:hover {
+    color: #003bbb;
+    font-size: 2px;
+}
+
+.card img{
+    border-radius: 15px;
+    width: 350px;
+    height: 50%;
+}
+
+.area {
+    background-color: #E1E7EF;
+    padding: 40px;
+    display: flex;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 13px 1px #adbec9;
+}
+
+.PC {
+    background-color: #DDEBFF;
+    padding: 2px;
+    padding-right: 9px;
+    padding-left: 9px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.etapas {
+    background-color: white;
+    padding: 3px;
+    border-radius: 20px;
+}
+
+.etapa1 {
+    background-color: #eef1f5;
+    padding: 1px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 20px;
+    box-shadow: -8px 0px 0px 0px #3883FF;
+}
+
+.areadir1 {
+    background-color: white;
+    padding: 3px;
+    margin-left: 60px;
+    border-radius: 20px;
+}
+
+
+
+
+.footerarea {
+    background-color: rgb(8, 21, 37);
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer1 {
+    padding-left: 20px;
+    color: rgb(209, 221, 231) ;
+}
+
+.footer2 {
+    color: rgb(209, 221, 231);
+}
+
+.footer2 a{
+    color: rgb(209, 221, 231);
+    text-decoration: none;
+    text-align: center;
+}
+
+.footer3 {
+    padding-right: 20px;
+    color: rgb(209, 221, 231);
+}
