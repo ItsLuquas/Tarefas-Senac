@@ -1,0 +1,90 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+    background-color: rgb(231, 239, 245);
+}
+
+.header {
+    background-color: #2f4152;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+nav a:hover{
+    font-size: 15px;
+
+}
+
+.caixa2 img {
+    height: 350px;
+    width: 450px;
+    justify-items: center;
+    border-radius: 15px;
+    border-color: white;
+    border: 4px solid white;
+}
+
+
+.caixa {
+    width: 450px;
+    height: 0px;
+    background-color: rgb(255, 255, 255);
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.kyogre {
+    width: 150px;
+    text-align: center;
+    background-color: rgb(230, 236, 246);
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid;
+    border-color: rgb(101, 104, 132);
+}
+
+.jigglypuff {
+    width: 150px;
+    text-align: center;
+    background-color: rgb(194, 197, 202);
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid;
+    border-color: rgb(139, 141, 153);
+}
+
+.jigglypuff:hover {
+    width: 160px;
+}
+
+.jirachi {
+    color: red;
+}
+
+.caixa2 {
+    width: 450px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
