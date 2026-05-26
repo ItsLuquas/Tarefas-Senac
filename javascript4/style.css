@@ -1,0 +1,71 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: radial-gradient( circle 855px at 10% 20%,  rgba(219,232,218,1) 0%, rgba(232,249,233,0.63) 49.6%, rgba(186,218,188,0.63) 89.6% );
+}
+
+header {
+    background-image: radial-gradient( circle 1031px at -14.1% 6.8%,  rgba(74,105,74,1) 32.3%, rgba(41,132,79,1) 100.2% );
+    color: white;
+    padding: 9px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.bulbasaur {
+    width: 600px;
+    height: 320px;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,255,255,1) 0%, rgba(245,249,251,1) 90% );
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.ivysaur {
+    width: 600px;
+    height: 750px;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,255,255,1) 0%, rgba(245,249,251,1) 90% );
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+
+.moltres {
+    height: 40px;
+    width: 350px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+.zapdos {
+    height: 45px;
+    width: 350px;
+    background-color: rgb(221, 230, 221);
+    border-color: rgb(129, 143, 129);
+    border-radius: 8px;
+    color: rgb(110, 121, 110);
+}
+
+.zapdos:hover {
+    background-color: rgb(203, 216, 203) ;
+    color: rgb(84, 97, 84);
+}
+
+
+
+
+.articuno {
+    color: red;
+    font-size: 20px;
+}

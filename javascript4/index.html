@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Catálogo de Produtos</h1>
+    </header>
+    <div class="bulbasaur">
+        <h2>Sistema de Cadastro de Produtos</h2>
+        <input type="text" id="produto" placeholder="Produto" class="moltres">
+        <br>      
+        <input type="number" id="preco" placeholder="Preço" class="moltres">
+        <br>
+        <button onclick="cadastro()" class="zapdos">Cadastrar</button>
+        <p id="mensagem"></p>
+    </div>
+
+    <div class="ivysaur">
+        <h2>Produtos cadastrados</h2>
+        <ul id="listaProdutos"></ul>
+        <button onclick="mostrar()" class="zapdos">Mostrar</button>
+        <p id="quantidade"></p>
+        <br>
+        <p id="itens"></p>
+        <br>
+        <button onclick="apagar()" class="zapdos">Remover Ultimo</button>
+        <p id="total"></p>
+        <p id="caro"></p>
+        <p id="barato"></p>
+        
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
