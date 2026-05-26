@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <header>
+            <h1>Atividade For e While</h1>
+        </header>
+
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="estoque.html">Estoque</a>
+            <a href="caixa.html">Caixa</a>
+            <a href="senha.html">Senha</a>
+            <a href="notas.html">Notas</a>
+            <a href="conferencia.html">Conferência</a>
+        </nav>
+    </div>
+
+
+    <main>
+        <div class="caixa">
+            <h2>Sistema de caixa para compras </h2>
+            <h4>Clique no botão para calcular o total da compra</h4>
+            <br>
+            <input type="text" id="nomeprodt" placeholder="nome do produto" class="input">
+            <input type="number" id="precoprodut" placeholder="preço do produto" class="input">
+        <strong><p id="digite"></p></strong>
+        <button onclick="Comprar()" class="button">Cadastrar produto</button>
+        <button onclick="Calcular()" class="button">Calcular valor</button>
+        
+        <p id="quantidad"></p>
+
+        <ul id="list">
+
+        </ul>
+        <p id="valr"></p>
+        </div>
+    </main>
+    <footer>
+        <p>Feito por: Lucas Lima Ferreira</p>
+        <p>Programador Web módulo 1 - Senac</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
